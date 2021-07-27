@@ -2,7 +2,7 @@ var readlineSync = require('readline-sync');
 var chalk = require('chalk');
 let userName = readlineSync.question('What is your name ?');
 let score =0;
-console.log(chalk.blue('Hello '+ userName + ' welcome to my quiz ,let me see how much you know me !'));
+console.log('Hello '+chalk.green( userName) + ' welcome to my quiz ,let me see how much you know me !');
 
 let questions=
 [
@@ -11,7 +11,7 @@ let questions=
     answer: 'winter'
     },
    {
-     
+
       question: 'currently i am learning which programming language',
       answer: 'javascript'
     } ,
